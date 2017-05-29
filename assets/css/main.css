@@ -17,7 +17,7 @@ ul{
 	width: 800px;
 	height: 500px;
 }
-.carrusel{
+#carrusel{
 	position: relative;
 	height:360px;
 	width: 100%;
@@ -28,7 +28,6 @@ ul{
 	position: absolute;
 	top: 0;
 	left: 0;
-	display: none;
 }
 .carrusel-des li{
 	display: none;
@@ -37,12 +36,12 @@ li.current-img{
 	display:block;
 	text-align: center;
 }
-.carrusel li img{
+#carrusel li img{
 	position: absolute;
 	top: 0;
 	left: 0;
-	max-width: 100%;
-	height: auto;
+	width: 100%;
+	height: 400px;
 }
 .carrusel-control{
 	text-align: center;
